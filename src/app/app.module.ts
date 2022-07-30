@@ -11,6 +11,7 @@ import { InicioComponent } from './components/inicio/inicio.component';
 import { SaludoInicioComponent } from './components/saludo-inicio/saludo-inicio.component';
 import { BtnCtaComponent } from './components/btn-cta/btn-cta.component';
 import { ImgPerfilInicioComponent } from './components/img-perfil-inicio/img-perfil-inicio.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ImgPerfilInicioComponent } from './components/img-perfil-inicio/img-per
     ImgPerfilInicioComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
