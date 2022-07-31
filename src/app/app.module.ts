@@ -12,6 +12,15 @@ import { SaludoInicioComponent } from './components/saludo-inicio/saludo-inicio.
 import { BtnCtaComponent } from './components/btn-cta/btn-cta.component';
 import { ImgPerfilInicioComponent } from './components/img-perfil-inicio/img-perfil-inicio.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FooterComponent } from './components/footer/footer.component';
+import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { ExperienciasComponent } from './components/experiencias/experiencias.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { ItemEducacionComponent } from './components/item-educacion/item-educacion.component';
+import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { ProyectoComponent } from './components/proyecto/proyecto.component';
+import { LoginComponent } from './components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +33,16 @@ import { AppRoutingModule } from './app-routing.module';
     InicioComponent,
     SaludoInicioComponent,
     BtnCtaComponent,
-    ImgPerfilInicioComponent
+    ImgPerfilInicioComponent,
+    FooterComponent,
+    AcercaDeComponent,
+    ExperienciasComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    ItemEducacionComponent,
+    ProyectosComponent,
+    ProyectoComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
