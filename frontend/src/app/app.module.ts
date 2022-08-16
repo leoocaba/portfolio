@@ -21,6 +21,8 @@ import { ItemEducacionComponent } from './components/item-educacion/item-educaci
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
 import { ProyectoComponent } from './components/proyecto/proyecto.component';
 import { LoginComponent } from './components/login/login.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { HardSoftSkillsComponent } from './components/hard-soft-skills/hard-soft-skills.component';
 
 @NgModule({
   declarations: [
@@ -42,11 +44,13 @@ import { LoginComponent } from './components/login/login.component';
     ItemEducacionComponent,
     ProyectosComponent,
     ProyectoComponent,
-    LoginComponent
+    LoginComponent,
+    HardSoftSkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
